@@ -1,8 +1,14 @@
 # modal_with_vanila_js
+# Languages
+```
+1.HTML
+2.CSS
+2.SASS
+3.JavaScript
+```
 
 
 ```javascript 
-
 var showModal = document.querySelector('.show_modal') ;
 var modal = document.querySelector('.modal_body');
 var close_modal = document.querySelector('.close_modal')
@@ -33,11 +39,5 @@ function clickSpace(e){
 }
 
 // end here
-
-
-
-
-
-
 
 ```
