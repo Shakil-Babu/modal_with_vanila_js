@@ -1,0 +1,11 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "For Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shakil Babu",
+  "license": "ISC"
+}
