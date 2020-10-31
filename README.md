@@ -44,7 +44,7 @@
 ```
 
 ## SASS Code Here
-```css
+```sass
 
 // for showcase
 .showcase_container{
@@ -124,7 +124,7 @@ display: none;
 // end here
 
 ```
-
+## JavaScript Code Here
 ```javascript 
 var showModal = document.querySelector('.show_modal') ;
 var modal = document.querySelector('.modal_body');
