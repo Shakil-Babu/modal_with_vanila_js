@@ -43,6 +43,88 @@
 
 ```
 
+## SASS Code Here
+```css
+
+// for showcase
+.showcase_container{
+   background-image:linear-gradient(#136a8a,#267871);
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding:260px;
+   transition: .5s;
+.all_one{
+// for heading
+    h1{
+        text-transform: uppercase;
+        font-size: 35px;
+        margin: 0;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    // for show modal button
+    .show_modal{
+        background-color: orange;
+        width: 200px;
+        border: none;
+        padding: 10px;
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 4px;
+
+    }
+}
+}
+
+// for modal parent
+.modal_container{
+
+
+// for modal body
+.modal_body{
+background: #fff;
+width: 800px;
+padding: 30px;
+font-size:20px;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+animation: .3s Drop;
+display: none;
+
+// for close_modal button
+.close_modal{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+}
+}
+
+// for animation
+@keyframes Drop{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 50% ;
+    }
+}
+
+// end here
+
+```
+
 ```javascript 
 var showModal = document.querySelector('.show_modal') ;
 var modal = document.querySelector('.modal_body');
